@@ -1,13 +1,29 @@
 package metod_class_1;
 
-public class Book {
-    public static int yearRelease;
-   public static String titleBook;
+    public class Book {
+    private int yearRelease;
+    private String titleBook;
 
-   public Book() {
+
+
+
+        public Book(String titleBook, int yearRelease) {
        this.titleBook = titleBook;
-     this.yearRelease = yearRelease;
+       this.yearRelease = yearRelease;
+
 
    }
+   public String getTitleBook(){
+       return titleBook;
+   }
+   public int getYearRelease(){
+       return yearRelease;
+   }
+   public void setYearRelease(int yearRelease){
+        this.yearRelease = yearRelease;
+   }
+//   public Author getAutorlastName(){
+//       return autorlastName;
+//   }
 
 }
