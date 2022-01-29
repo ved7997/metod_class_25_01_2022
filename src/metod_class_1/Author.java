@@ -1,8 +1,8 @@
 package metod_class_1;
 
 public class Author {
-  public  String autorfirstName;
-  public String autorlastName;
+  private   String autorfirstName;
+  private String autorlastName;
 
    public  Author(String autorfirstName, String autorlastName) {
        this.autorfirstName = autorfirstName;
