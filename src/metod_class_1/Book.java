@@ -2,12 +2,13 @@ package metod_class_1;
     public class Book {
         private int yearRelease;
         private String titleBook;
+        public Author author;
 
-    public Book(String titleBook, int yearRelease) {
+    public Book(String titleBook, int yearRelease, Author author) {
         this.titleBook = titleBook;
-       this.yearRelease = yearRelease;
+        this.yearRelease = yearRelease;
+        this.author = author;
     }
-
     public Book(){
 
     }
@@ -23,5 +24,11 @@ package metod_class_1;
    public void setYearRelease(int yearRelease){
         this.yearRelease = yearRelease;
    }
+
+   @Override
+   public String toString(){
+        return "Book{ " + titleBook + " " + yearRelease + " " + author + " }";
+   }
+
 
 }

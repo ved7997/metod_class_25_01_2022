@@ -9,8 +9,20 @@ public class Author {
        this.autorlastName = autorlastName;
    }
 
-   public String getuthorfirstName() {
-        return autorfirstName +" " + autorlastName;
-    }
+   public String getAutorfirstName(){
+       return autorfirstName;
+   }
+   public String getAutorlastName(){
+       return autorlastName;
+   }
+
+   public String toString(){
+       return  "Book{ " + autorfirstName + " " + autorlastName + " }";
+   }
+
+
+
+
+
 
 }
