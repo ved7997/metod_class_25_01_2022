@@ -9,7 +9,7 @@ public class Main {
         Book vityMaleev2 = new  Book();
         Author avthor = new Author("Николай", "Носов");
         vityMaleev2.setYearRelease(1950);
-        System.out.println(vityMaleev2.toString());
+        vityMaleev2.toString();
         System.out.println(vityMaleev1.toString());
         System.out.println(vityMaleev1.hashCode());
         System.out.println(avthor.hashCode());
